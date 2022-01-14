@@ -55,7 +55,7 @@ const main = ((Particle) => {
   canvas.height = size.height;
   const ctx = canvas.getContext("2d");
   let particles = [];
-  const particleCount = 50;
+  const particleCount = 20;
   const mouse = {
     x : canvas.width/2,
     y : canvas.height/2
